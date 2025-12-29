@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRG Outsourcing | Smart Support. Global Reach.</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">CRG Outsourcing</div>
+    <nav>
+      <a href="#about">Who We Are</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why Choose Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Smart Support. Global Reach.</h1>
+      <p>
+        CRG Outsourcing provides reliable, scalable business support solutions
+        that help companies operate efficiently and grow globally.
+      </p>
+      <a href="#contact" class="btn-primary">Get in Touch</a>
+    </div>
+    <img src="assets/hero-visual.png" alt="Hero Visual" class="hero-image">
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div>
+        <h2>Who We Are</h2>
+        <p>
+          CRG Outsourcing is a professional business process outsourcing company
+          delivering high-quality support services to organizations worldwide.
+          Our focus is on efficiency, reliability, and long-term partnerships.
+        </p>
+      </div>
+      <img src="assets/about-team.jpeg" alt="CRG Outsourcing Team">
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <img src="assets/service-email.jpeg" alt="Email Support">
+        <h3>Email & Customer Support</h3>
+        <p>Professional inbound and outbound customer support services.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/service-data.jpeg" alt="Back Office Support">
+        <h3>Data & Back Office Support</h3>
+        <p>Accurate data processing and administrative support.</p>
+      </div>
+
+      <div class="service-card">
+        <img src="assets/service-va-2.jpg" alt="Virtual Assistance">
+        <h3>Virtual Assistance</h3>
+        <p>Skilled virtual assistants to support daily business operations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why" class="why-choose">
+    <h2>Why Choose CRG Outsourcing</h2>
+
+    <div class="why-grid">
+      <div class="why-card">
+        <span class="why-icon">👥</span>
+        <h3>Dedicated Team</h3>
+        <p>Experienced professionals delivering consistent, quality service.</p>
+      </div>
+
+      <div class="why-card">
+        <span class="why-icon">🌍</span>
+        <h3>Global Reach</h3>
+        <p>Supporting clients across regions and multiple time zones.</p>
+      </div>
+
+      <div class="why-card">
+        <span class="why-icon">🔐</span>
+        <h3>Secure Operations</h3>
+        <p>Strong data protection and reliable operational processes.</p>
+      </div>
+
+      <div class="why-card">
+        <span class="why-icon">📈</span>
+        <h3>Scalable Growth</h3>
+        <p>Flexible solutions designed to grow alongside your business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <form id="contactForm">
+      <input type="text" name="from_name" placeholder="Your Name" required />
+      <input type="email" name="from_email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+      <p id="form-status"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 CRG Outsourcing. All rights reserved.</p>
+    <p>Email: CRGoutsourcing@outlook.com</p>
+  </footer>
+
+  <!-- EMAILJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script>
+    emailjs.init("BTYT7how5jrTacxio");
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
